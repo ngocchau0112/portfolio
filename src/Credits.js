@@ -12,8 +12,9 @@ export default function Credits() {
           rel="noreferrer"
         >
           Ngoc Chau
-        </a>{" "}
-        inspired by the{" "}
+        </a>
+        <br />
+        {"//"}This website was inspired by the{" "}
         <a
           className="credit-links"
           href="https://draculatheme.com/"
@@ -21,9 +22,8 @@ export default function Credits() {
           rel="noreferrer"
         >
           Dracular theme
-        </a>
-        <br />
-        {"//"}This website is{" "}
+        </a>{" "}
+        and is{" "}
         <a
           className="credit-links"
           href="https://github.com/ngocchau0112/portfolio"

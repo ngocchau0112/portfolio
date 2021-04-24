@@ -9,7 +9,7 @@ export default function Intro() {
         <h2 className="hello secondary">helloIAm()</h2>
         <TypeAnimation
           cursor={true}
-          sequence={["`Ngoc Le Thao Chau`", 1000, "`Ngoc Chau`"]}
+          sequence={["{Ngoc Le Thao Chau}", 1000, "{Ngoc Chau}"]}
           wrapper="h1"
         />
         <h3>
