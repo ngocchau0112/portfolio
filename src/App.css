@@ -34,7 +34,7 @@ h3 {
 }
 
 .container {
-  margin: 200px auto 130px;
+  margin: 200px auto 90px;
 }
 
 .hello {
@@ -135,4 +135,17 @@ a {
     width: 330px;
     height: 450px;
   }
+}
+
+.credit-links {
+  margin: 0 5px;
+}
+
+.credit-links:hover {
+  color: #010101;
+  background: #3bcd69;
+}
+
+.credits {
+  text-align: center;
 }
