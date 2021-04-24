@@ -17,7 +17,7 @@ export default function Works() {
           />
           <div className="works-list">
             <div className="row">
-              <div className="col-sm-4 col-md-6 text-center">
+              <div className="col-lg-4 col-sm-6 text-center">
                 <a href="https://unruffled-ramanujan-db4525.netlify.app/">
                   <div className="btn work-item">
                     <div className="h4">Vanilla Weather App</div>
@@ -29,7 +29,7 @@ export default function Works() {
                   </div>
                 </a>
               </div>
-              <div className="col-sm-4 col-md-6 text-center">
+              <div className="col-lg-4 col-sm-6 text-center">
                 <a href="https://sad-brown-6c9f30.netlify.app/">
                   <div className="btn work-item">
                     <div className="h4">React Weather App</div>
@@ -41,7 +41,7 @@ export default function Works() {
                   </div>
                 </a>
               </div>
-              <div className="col-sm-4 col-md-6 text-center">
+              <div className="col-lg-4 col-sm-6 text-center">
                 <a href="https://optimistic-neumann-4ec4f1.netlify.app/">
                   <div className="btn work-item">
                     <div className="h4">React Dictionary App</div>
