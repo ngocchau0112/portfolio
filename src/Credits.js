@@ -4,7 +4,7 @@ export default function Credits() {
   return (
     <div className="credits">
       <p>
-        //All websites were coded and designed by{" "}
+        {"//"}All websites were coded and designed by{" "}
         <a
           className="credit-links"
           href="https://github.com/ngocchau0112"
@@ -23,7 +23,7 @@ export default function Credits() {
           Dracular theme
         </a>
         <br />
-        //This website is{" "}
+        {"//"}This website is{" "}
         <a
           className="credit-links"
           href="https://github.com/ngocchau0112/portfolio"
