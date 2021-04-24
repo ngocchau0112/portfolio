@@ -5,11 +5,21 @@ export default function Credits() {
     <div className="credits">
       <p>
         //All websites were coded and designed by{" "}
-        <a className="credit-links" href="https://github.com/ngocchau0112">
+        <a
+          className="credit-links"
+          href="https://github.com/ngocchau0112"
+          target="_blank"
+          rel="noreferrer"
+        >
           Ngoc Chau
         </a>{" "}
         inspired by the{" "}
-        <a className="credit-links" href="https://draculatheme.com/">
+        <a
+          className="credit-links"
+          href="https://draculatheme.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Dracular theme
         </a>
         <br />
@@ -17,6 +27,8 @@ export default function Credits() {
         <a
           className="credit-links"
           href="https://github.com/ngocchau0112/portfolio"
+          target="_blank"
+          rel="noreferrer"
         >
           open-sourced on Github
         </a>
