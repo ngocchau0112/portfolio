@@ -1,7 +1,6 @@
 import React from "react";
 import TypeAnimation from "react-type-animation";
 import TextLoop from "react-text-loop";
-import Works from "./Works";
 
 export default function Intro() {
   return (
@@ -40,8 +39,6 @@ export default function Intro() {
           </a>
         </div>
       </div>
-
-      <Works />
     </div>
   );
 }

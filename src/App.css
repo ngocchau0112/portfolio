@@ -34,7 +34,7 @@ h3 {
 }
 
 .container {
-  margin: 200px auto 400px;
+  margin: 200px auto 130px;
 }
 
 .hello {
@@ -60,4 +60,79 @@ h3 {
 
 .works-title {
   font-size: 70px;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 10px;
+  border: solid var(--primary-color);
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.work:hover {
+  background: var(--primary-color);
+}
+
+.h4 {
+  font-size: 34px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.work-item {
+  height: 560px;
+}
+
+.intro {
+  margin-bottom: 500px;
+}
+
+@media (max-width: 414px) {
+  .container {
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  .btn {
+    display: flex;
+  }
+  .intro {
+    margin: 0 auto;
+  }
+  img {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .work-item {
+    display: block;
+    height: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+  }
+  .intro {
+    margin-bottom: 0;
+  }
+
+  img {
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    max-height: 200px;
+  }
+  .work-item {
+    display: block;
+    width: 330px;
+    height: 450px;
+  }
 }
