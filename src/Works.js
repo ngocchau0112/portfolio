@@ -28,7 +28,7 @@ export default function Works() {
                     <img src={vanillaApp} alt="Vanilla Weather App"></img>
                     <div className="description">
                       Weather Application coded using only Vanilla JavaScript
-                      using Bootstrap with API integration
+                      and Bootstrap with API integration
                     </div>
                   </div>
                 </a>

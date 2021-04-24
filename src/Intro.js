@@ -16,7 +16,7 @@ export default function Intro() {
           Front-end Developer and Designer based in Ho Chi Minh City, Vietnam
         </h3>
         <h2>
-          My main passion is to draw, but I started to learn coding on March
+          My main passion is drawing, but I started learning coding on March
           2021 and fell in love with{" "}
           <TextLoop
             springConfig={{ stiffness: 180, damping: 8 }}
