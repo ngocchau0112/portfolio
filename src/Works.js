@@ -11,9 +11,9 @@ export default function Works() {
         <div id="works-link">
           <TypeAnimation
             cursor={true}
-            sequence={["Previous Works", 1000, "Previous Works"]}
+            sequence={["previousWorks()", 1000, "previousWorks()"]}
             wrapper="h2"
-            className="works-title"
+            className="works-title highlight"
           />
           <div className="works-list">
             <div className="row">
@@ -24,11 +24,16 @@ export default function Works() {
                   rel="noreferrer"
                 >
                   <div className="btn work-item">
-                    <div className="h4">Vanilla Weather App</div>
+                    <div className="h4">
+                      <span className="secondary">vanillaWeatherApp()</span>
+                    </div>
                     <img src={vanillaApp} alt="Vanilla Weather App"></img>
                     <div className="description">
-                      Weather Application coded using only Vanilla JavaScript
-                      and Bootstrap with API integration
+                      <span className="item">Weather Application</span> coded
+                      using only{" "}
+                      <span className="highlight">Vanilla JavaScript</span> and{" "}
+                      <span className="highlight">Bootstrap</span> with{" "}
+                      <span className="value">API integration</span>
                     </div>
                   </div>
                 </a>
@@ -40,11 +45,15 @@ export default function Works() {
                   rel="noreferrer"
                 >
                   <div className="btn work-item">
-                    <div className="h4">React Weather App</div>
+                    <div className="h4">
+                      <span className="secondary">reactWeatherApp()</span>
+                    </div>
                     <img src={reactWeatherApp} alt="React Weather App"></img>
                     <div className="description">
-                      Weather Application coded with ReactJS using Bootstrap
-                      with API integration
+                      <span className="item">Weather Application</span> coded
+                      with <span className="highlight">ReactJS</span> using{" "}
+                      <span className="highlight">Bootstrap</span> with{" "}
+                      <span className="value">API integration</span>
                     </div>
                   </div>
                 </a>
@@ -56,11 +65,15 @@ export default function Works() {
                   rel="noreferrer"
                 >
                   <div className="btn work-item">
-                    <div className="h4">React Dictionary App</div>
+                    <div className="h4">
+                      <span className="secondary">reactDictionaryApp()</span>
+                    </div>
                     <img src={dictionaryApp} alt="React Dictionary App"></img>
                     <div className="description">
-                      Dictionary Application coded with ReactJS using Bootstrap
-                      with API integration
+                      <span className="item">Dictionary Application</span> coded
+                      with <span className="highlight">ReactJS</span> using{" "}
+                      <span className="highlight">Bootstrap</span> with{" "}
+                      <span className="value">API integration</span>
                     </div>
                   </div>
                 </a>

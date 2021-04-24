@@ -6,36 +6,43 @@ export default function Intro() {
   return (
     <div className="intro">
       <div className="container">
-        <h2 className="hello">Hello, I am</h2>
+        <h2 className="hello secondary">helloIAm()</h2>
         <TypeAnimation
           cursor={true}
-          sequence={["Ngoc Le Thao Chau", 1000, "Ngoc Chau"]}
+          sequence={["`Ngoc Le Thao Chau`", 1000, "`Ngoc Chau`"]}
           wrapper="h1"
         />
         <h3>
-          Front-end Developer and Designer based in Ho Chi Minh City, Vietnam
+          <span className="secondary">frontEndDeveloper()</span>{" "}
+          <span className="highlight">&&</span>{" "}
+          <span className="secondary">designer()</span> based in{" "}
+          <span className="item">Ho Chi Minh City()</span>,
+          <span className="value">Vietnam</span>
         </h3>
         <h2>
-          My main passion is drawing, but I started learning coding on March
-          2021 and fell in love with{" "}
-          <TextLoop
-            springConfig={{ stiffness: 180, damping: 8 }}
-            children={[
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "ReactJS",
-              "NodeJS",
-              "Bootstrap",
-            ]}
-          />
+          My main passion is <span className="item">drawing</span>, but I
+          started <span className="item">learning coding</span> on{" "}
+          <span className="value">March 2021</span> and fell in love with{" "}
+          <span className="highlight">
+            <TextLoop
+              springConfig={{ stiffness: 180, damping: 8 }}
+              children={[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "ReactJS",
+                "NodeJS",
+                "Bootstrap",
+              ]}
+            />
+          </span>
         </h2>
         <div className="links">
           <a href="mailto:ngocchau0112@gmail.com">
-            <div className="btn">Contact me</div>
+            <div className="btn secondary">Contact me</div>
           </a>
           <a href="#works-link">
-            <div className="btn">Previous Works</div>
+            <div className="btn secondary">Previous Works</div>
           </a>
         </div>
       </div>

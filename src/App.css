@@ -1,6 +1,10 @@
 :root {
-  --primary-color: #3bcd69;
-  --background-color: #010101;
+  --primary-color: #50fa7b;
+  --secondary-color: #ff79c6;
+  --text-highlight: #ff5555;
+  --value-color: #bd93f9;
+  --item-color: #f1fa8c;
+  --background-color: #282a36;
 }
 
 body {
@@ -21,6 +25,7 @@ a {
 h1 {
   font-size: 140px;
   margin-bottom: 10px;
+  color: var(--text-highlight);
 }
 
 h2 {
@@ -43,9 +48,9 @@ h3 {
 
 .btn {
   font-size: 25px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   background: none;
-  border: solid var(--primary-color);
+  border: solid var(--secondary-color);
   border-width: 1px;
   margin: 35px 0;
   margin-right: 50px;
@@ -54,8 +59,8 @@ h3 {
 }
 
 .btn:hover {
-  color: var(--background-color);
-  background: var(--primary-color);
+  color: var(--secondary-color);
+  background: #44475a;
 }
 
 .works-title {
@@ -73,16 +78,13 @@ a {
   text-decoration: none;
 }
 
-.work:hover {
-  background: var(--primary-color);
-}
-
 .h4 {
   font-size: 34px;
 }
 
 .description {
   font-size: 20px;
+  color: #6272a4;
 }
 
 .work-item {
@@ -94,18 +96,34 @@ a {
 }
 
 .credit-links {
-  margin: 0 5px;
+  color: var(--secondary-color);
 }
 
 .credit-links:hover {
-  color: #010101;
-  background: #3bcd69;
+  background: #44475a;
+  color: var(--secondary-color);
 }
 
 .credits {
   text-align: center;
 }
 
+p {
+  color: #6272a4;
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+.highlight {
+  color: var(--text-highlight);
+}
+.value {
+  color: var(--value-color);
+}
+.item {
+  color: var(--item-color);
+}
 @media (max-width: 768px) {
   .container {
     margin: 0 auto;
