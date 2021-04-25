@@ -30,9 +30,8 @@ export default function Works() {
                     <img src={vanillaApp} alt="Vanilla Weather App"></img>
                     <div className="description">
                       <span className="item">Weather Application</span> coded
-                      using only{" "}
-                      <span className="highlight">Vanilla JavaScript</span> and{" "}
-                      <span className="highlight">Bootstrap</span> with{" "}
+                      with <span className="highlight">Vanilla JavaScript</span>{" "}
+                      and <span className="highlight">Bootstrap</span> with{" "}
                       <span className="value">API integration</span>
                     </div>
                   </div>
@@ -51,7 +50,7 @@ export default function Works() {
                     <img src={reactWeatherApp} alt="React Weather App"></img>
                     <div className="description">
                       <span className="item">Weather Application</span> coded
-                      with <span className="highlight">ReactJS</span> using{" "}
+                      with <span className="highlight">React</span> and{" "}
                       <span className="highlight">Bootstrap</span> with{" "}
                       <span className="value">API integration</span>
                     </div>
@@ -71,7 +70,7 @@ export default function Works() {
                     <img src={dictionaryApp} alt="React Dictionary App"></img>
                     <div className="description">
                       <span className="item">Dictionary Application</span> coded
-                      with <span className="highlight">ReactJS</span> using{" "}
+                      with <span className="highlight">React</span> and{" "}
                       <span className="highlight">Bootstrap</span> with{" "}
                       <span className="value">API integration</span>
                     </div>
