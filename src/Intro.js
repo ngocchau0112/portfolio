@@ -16,7 +16,7 @@ export default function Intro() {
           <span className="secondary">frontEndDeveloper()</span>{" "}
           <span className="highlight">&&</span>{" "}
           <span className="secondary">designer()</span> based in{" "}
-          <span className="item">Ho Chi Minh City()</span>,
+          <span className="item">Ho Chi Minh City</span>,
           <span className="value">Vietnam</span>
         </h3>
         <h2>
