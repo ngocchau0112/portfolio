@@ -8,7 +8,7 @@ export default function Works() {
   return (
     <div className="previous-works">
       <div className="container works">
-        <div id="works-link">
+        <div id="works">
           <TypeAnimation
             cursor={true}
             sequence={["previousWorks()", 1000, "previousWorks()"]}
