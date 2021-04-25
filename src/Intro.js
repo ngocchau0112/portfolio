@@ -30,9 +30,12 @@ export default function Intro() {
                 "HTML",
                 "CSS",
                 "JavaScript",
-                "ReactJS",
+                "React",
                 "NodeJS",
                 "Bootstrap",
+                "Flexbox",
+                "Visual Studio Code",
+                "GitHub",
               ]}
             />
           </span>
